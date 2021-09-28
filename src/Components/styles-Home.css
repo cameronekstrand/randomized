@@ -1,0 +1,68 @@
+.enter-button {
+    height: 40px;
+    box-sizing: border-box;
+    border-radius: 25px;
+    padding: 2px 40px 0 40px;
+    /* border: 2px solid #000000; */
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all .5s;
+}
+
+.enter-button:hover {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+}
+
+.home-content {
+    position: fixed;
+    z-index: 12;
+    width: 35%;
+    height: 40%;
+    left: 32.5%;
+    top: 30%;
+    border-radius: 25px;
+    color: white;
+}
+
+.home-randomized {
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 3rem;
+    padding-top: 80px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.home-by {
+    font-family: Helvetica;
+    font-size: 1rem;
+    padding-bottom: 0;
+    margin-bottom: 10px;
+}
+
+.home-name {
+    font-family: Helvetica;
+    font-size: 1.2rem;
+    padding-bottom: 0;
+    margin-bottom: 30px;
+}
+
+.image-grid-home {
+    width: 150%;
+}
+
+.grey {
+    position: fixed;
+    z-index: 10;
+    background-color: #000000;
+    width: 150%;
+    height: 150%;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+}
