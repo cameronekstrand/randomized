@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { Button } from 'antd'; 
 import './styles-Home.css';
+import { BrowserRouter, Link, BrowserRouter as Switch, Route } from 'react-router-dom';
 import { NavLink } from "react-router-dom";
 
 import LetterA from './Letters/letterA.png'
@@ -78,7 +79,7 @@ export class Home extends React.Component {
                     <p className="home-randomized">Randomized</p>
                     <p className="home-by">by</p>
                     <p className="home-name">Cameron Ekstrand</p>
-                    <NavLink to="/scripts"><Button className="enter-button" style={{backgroundColor: background_color}}>Start</Button></NavLink>
+                    <NavLink to={process.env.PUBLIC_URL + '/scripts'}><Button className="enter-button" style={{backgroundColor: background_color}}>Start</Button></NavLink>
                 </div>
                 <div className="grey"></div>
             </div>
