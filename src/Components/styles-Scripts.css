@@ -87,7 +87,7 @@
     0% {transform: translate3D(0, 0, 0);}
     25% {transform: translate3D(-10%, -5%, 0);}
     50% {transform: translate3D(-20%, 0, 0);}
-    75% {transform: translate3D(-10%, 5%, 0);}
+    75% {transform: translate3D(-10%, -10%, 0);}
     100% {transform: translate3D(0, 0, 0);}
 }
 
