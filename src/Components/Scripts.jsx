@@ -108,7 +108,7 @@ export class Scripts extends React.Component {
                 <img className="randomized-image" key={i} style={{width: image_size+"px"}} src={image} alt=""/>)}
             </div>
             <div>
-            <NavLink to="/"><Button className="backhome-button">Home</Button></NavLink>
+            <NavLink to="/randomized"><Button className="backhome-button">Home</Button></NavLink>
               <Button className="refresh-button" onClick={refreshPage}>Refresh</Button>
             </div>
           </div>

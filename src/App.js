@@ -12,8 +12,8 @@ const App = () => (
         <Switch>
           <Null />
           <div>
-            <Route path="/scripts" component={ Scripts }/>
-            <Route exact path="/" component={ Home }/>
+            <Route path='/scripts' component={ Scripts }/>
+            <Route exact path={process.env.PUBLIC_URL + '/'} component={ Home }/>
           </div>
         </Switch>
       </BrowserRouter>
