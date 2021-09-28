@@ -13,7 +13,7 @@ const App = () => (
           <Null />
           <div>
             <Route path="/scripts" component={ Scripts }/>
-            <Route exact path="/randomized" component={ Home }/>
+            <Route exact path="/" component={ Home }/>
           </div>
         </Switch>
       </BrowserRouter>
