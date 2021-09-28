@@ -109,7 +109,7 @@ export class Scripts extends React.Component {
             </div>
             <div>
             <NavLink to="/randomized"><Button className="backhome-button">Home</Button></NavLink>
-            <NavLink to="/randomized/scripts"><Button className="refresh-button">Home</Button></NavLink>
+            <NavLink to="/scripts"><Button className="refresh-button">Home</Button></NavLink>
             </div>
           </div>
       );
