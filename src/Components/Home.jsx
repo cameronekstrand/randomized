@@ -78,7 +78,7 @@ export class Home extends React.Component {
                     <p className="home-randomized">Randomized</p>
                     <p className="home-by">by</p>
                     <p className="home-name">Cameron Ekstrand</p>
-                    <NavLink to="/scripts"><Button className="enter-button" style={{backgroundColor: background_color}}>Start</Button></NavLink>
+                    <NavLink to="/randomized/scripts"><Button className="enter-button" style={{backgroundColor: background_color}}>Start</Button></NavLink>
                 </div>
                 <div className="grey"><p>testing</p></div>
             </div>
