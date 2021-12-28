@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import './styles-Scripts.css';
 import { Button } from 'antd'; 
 import { NavLink } from "react-router-dom";
+import { BrowserRouter, Link, BrowserRouter as Switch, Route } from 'react-router-dom';
+import { Home } from './Home';
 
 import LetterA from './Letters/letterA.png'
 import LetterB from './Letters/letterB.png'
@@ -108,7 +110,7 @@ export class Scripts extends React.Component {
                 <img className="randomized-image" key={i} style={{width: image_size+"px"}} src={image} alt=""/>)}
             </div>
             <div>
-            <NavLink to={process.env.PUBLIC_URL}><Button className="backhome-button">Home</Button></NavLink>
+            <Link to='/randomized'><Button className="backhome-button">Home</Button></Link>
               <Button className="refresh-button" onClick={refreshPage}>Refresh</Button>
             </div>
           </div>

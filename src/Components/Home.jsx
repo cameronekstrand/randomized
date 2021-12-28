@@ -37,6 +37,7 @@ import LetterZ from './Letters/letterZ.png'
 //     window.scrollTo(0, 0);
 // }
 
+
 var images = [
     LetterA,
     LetterB,
